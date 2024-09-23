@@ -438,4 +438,38 @@ ul li {
     margin-bottom: 0;
 }
 
+/* Footer Styling */
+footer {
+    background-color: #333; /* Dark background */
+    color: #fff; /* White text */
+    padding: 20px 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+footer .text {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+footer .text a {
+    color: #00b3e6; /* Light blue for the link */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+footer .text a:hover {
+    color: #fff; /* White text on hover */
+}
+
+footer .text span {
+    display: block;
+    margin-top: 10px;
+}
+
+footer .text span a {
+    margin-left: 5px;
+}
+
 
